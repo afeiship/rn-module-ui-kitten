@@ -38,7 +38,7 @@ export default class RnUiKitten extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
-        <RkButton onPress={this._onPress} rkType='danger outline' full>Click me!</RkButton>
+        <RkButton onPress={this._onPress} rkType='danger outline'>Click me!</RkButton>
 
         <RkModalImg source={{ uri: uri1 }}/>
 
